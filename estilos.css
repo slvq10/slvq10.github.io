@@ -1,0 +1,28 @@
+/*margin es el espacio desde el borde hacia afuera
+ padding del borde del centro hacia adentro
+
+ width: dtermina el ancho del elemento (no inline)
+ heihgt: determina el alto del elemento
+ diplay de tipo block:elemento de bloque que se ubican uno debajo del otro
+ tiene, ancho,alto,paddin,margin
+
+ inline: se ubicana uno al lado del otro no tiene alto, no tiene ancho,
+ el padding, el margin no es completo,
+
+ inline-block: es un elemento que tiene caracteristicas de block
+  e inline es decir es un elementio con caracteristicas del block
+  pero se posiciona uno al lado delotr*/
+
+ p {
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    display: inline-block ;
+    padding: 10px;
+    border: solid black;
+    margin: 12px;
+
+}
+div{
+    background-color:blueviolet;
+}

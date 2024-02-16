@@ -1,0 +1,48 @@
+.item {
+    background-color: aqua;
+   width: 16%;
+   height: 80px;
+   border: 1px solid black;
+   
+}
+
+
+.contenedor {
+    background-color:rgb(167, 167, 243) ;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+
+    /*Permite alinear en el eje principal
+    flex-star -> izquierda 
+    flex-> Derecha
+    center -> Centrado
+    space- around-> alinea dejando espacios proprcionales
+      space- betweent-> alinea dejando espacios proporcionales y
+      no deja espacios al inicio y al final*/
+
+   justify-content: space-between;
+
+/*permite alinear en el
+permite alinear en el eje secundario
+ flex-star ->arriba
+    flex-> abajo
+    center -> Centro  */
+    align-items :center;
+}
+.itemfinal{
+    /*
+    permite que un elemento se alinee de manera distinta a la 
+    que indica su contenedor
+     flex-star ->arriba
+    flex-> abajo
+    center -> Centro*/
+     align-self: flex-end;
+
+}
+.iteminicial{
+    align-self: flex-start;
+}

@@ -1,0 +1,52 @@
+.contenedorgeneral{
+    background-color: cadetblue;
+    width: 700px;
+    padding: 16px;
+    
+    }
+    .header{
+        background-color: bisque;
+        padding: 8px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .nav{
+        background-color: bisque;
+        padding: 8px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .contenedorcentral{
+
+    }
+    .article {
+        width: 400px;
+        height: 250px;
+        background-color: beige;
+         display: inline-block;
+         margin-right:12px;
+         
+    }
+  
+    .aside {
+        width: 280px;
+        height: 250px ;
+        background-color: beige;
+        display: inline-block;
+        
+    }
+    .footer{
+        background-color: beige;
+        height: 90px;
+    
+    }
+    .section {
+        
+        width: 360px;
+        margin-left: 20px;
+        height: 60px;
+        background-color: aquamarine;
+        margin-bottom: 8px;
+        border: 1px solid black;
+        
+    }

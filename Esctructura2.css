@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorgeneral{
+    width: 100%;
+    max-width: 1200px;
+    background-color: yellow;
+}
+.logoprincipal
+{
+    width: 120px;
+    height: 50x;
+    margin-right: 24px;
+    margin-left: 12px;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main{
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.item {
+    width: 30%;
+    background-color: skyblue;
+}
+.item img {
+    width: 100%;
+
+}
+
+.itemhorizontal{
+    margin-top: 12px;
+    height: 40px;
+    background-color: blue;
+    width: 100% ;
+    color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+.footer{
+    Display:flex;
+    justify-content: space-between ;
+    align-items:center ;
+    padding: 12px;
+}
+
+.logofooter{
+    width: 90px;
+}
+.item p{
+    padding: 12px;
+}
